@@ -20,5 +20,5 @@ def test_google_research(configured_browser, define_url):
     browser.element('[id="search"]').should(have.text('Selene - User-oriented Web UI browser tests in Python'))
 
 
-def test_for_conflict():
+def test_for_conflict_second():
     assert 3 > 1
